@@ -13,7 +13,10 @@
     "prepare": "husky",
     "markdown:lint": "markdownlint -f '**/*.md'",
     "commit": "commit",
-    "commitlint": "commitlint --edit"
+    "commitlint": "commitlint --edit",
+    "changeset": "changeset",
+    "vp": "changeset version",
+    "release": "changeset publish"
   },
   "keywords": [],
   "author": "",
