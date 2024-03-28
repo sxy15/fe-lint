@@ -1,0 +1,23 @@
+{
+  "name": "@anfu/commitlint-config",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "commitlint-config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^19.2.1",
+    "@commitlint/config-conventional": "^19.1.0",
+    "@commitlint/prompt-cli": "^19.2.0"
+  },
+  "peerDependencies": {
+    "@commitlint/cli": "^19.2.1",
+    "@commitlint/config-conventional": "^19.1.0",
+    "@commitlint/prompt-cli": "^19.2.0"
+  }
+}

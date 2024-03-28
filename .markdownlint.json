@@ -1,0 +1,3 @@
+{
+  "extends": "@anfu/markdownlint-config"
+}

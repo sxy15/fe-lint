@@ -1,0 +1,21 @@
+{
+  "name": "@anfu/markdownlint-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.json",
+  "scripts": {},
+  "keywords": [
+    "markdownlint",
+    "markdown",
+    "lint",
+    "config"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "markdownlint": "^0.34.0"
+  },
+  "peerDependencies": {
+    "markdownlint": "^0.34.0"
+  }
+}
