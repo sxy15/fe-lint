@@ -1,3 +1,3 @@
 export default {
-  "extends": ["@anfu/stylelint-config"],
-}
+    'extends': ['@anfu/stylelint-config'],
+};

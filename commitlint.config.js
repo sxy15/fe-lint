@@ -1,3 +1,3 @@
-export default { 
-  extends: ['@anfu/commitlint-config']
+export default {
+    extends: ['@anfu/commitlint-config'],
 };
