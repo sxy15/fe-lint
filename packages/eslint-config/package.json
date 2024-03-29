@@ -1,11 +1,9 @@
 {
   "name": "@anfu/eslint-config",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "eslint-config",
   "main": "index.js",
-  "scripts": {
-    
-  },
+  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
