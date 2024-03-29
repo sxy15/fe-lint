@@ -6,7 +6,7 @@ import pkgJSON from './utils/pkg.js';
 const {name, version} = pkgJSON;
 
 const checkVersion = async () => {
-    let latestVersion = execSync(`pnpm view ${name} version`).toString().trim();
+    let latestVersion = execSync(`pnpm show ${name} version`).toString().trim();
 
     return compare(version, latestVersion, '<') ? latestVersion : '';
 };
@@ -21,14 +21,12 @@ const update = async () => {
         const update = ora(`${name} updating to ${latestVersion}`);
         update.start();
 
-        execSync(`pnpm add ${name}@latest -g`);
+        execSync(`pnpm i ${name}@latest -g`);
 
         update.stop();
     }
 
     checking.stop();
 };
-
-update();
 
 export default update;

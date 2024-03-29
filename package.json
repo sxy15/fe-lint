@@ -36,6 +36,7 @@
   },
   "dependencies": {
     "@anfu/commitlint-config": "workspace:^",
+    "@anfu/fe-lint": "workspace:^",
     "@anfu/markdownlint-config": "workspace:^",
     "@anfu/stylelint-config": "workspace:^"
   }
